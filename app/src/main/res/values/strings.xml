@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">HandshakePlus</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign up</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="sign_in_to_continue_your_rehab_journey">Sign in to continue your rehab journey</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="complete_setup">Complete Setup</string>
+    <string name="code_from_your_therapist">Code from your therapist</string>
+    <string name="assigned_therapist">Assigned Therapist</string>
+    <string name="right">Right</string>
+    <string name="left">Left</string>
+    <string name="dominant_hand">Dominant Hand</string>
+    <string name="mm_dd_yyyy">[MM/DD/YYYY]</string>
+    <string name="injury_type">Injury Type</string>
+    <string name="full_name">Full Name</string>
+    <string name="tell_us_about_your_surgery_so_we_can_personalize_your_rehab">Tell us about your surgery so we can personalize your rehab</string>
+    <string name="let_s_set_up_your_recovery_plan">Let\'s set up your recovery plan</string>
+    <string name="onboarding_screen">Onboarding Screen</string>
+</resources>

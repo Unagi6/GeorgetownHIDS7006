@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".ThumbExtensionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"> <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thumb Extension And Flexion"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🔥"
+                android:textSize="20sp"
+                android:textColor="#FF9800"
+                android:layout_marginEnd="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 day streak "
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="| Last Completed: 03/10"
+                android:textSize="14sp"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arm_shot"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:maxWidth="300dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Start in a neutral wrist position."
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Slowly bring your thumb across the palm"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Try to touch the base of your little finger if you can"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Hold the bent position for 2-3 seconds"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Return the thumb back slowly to the start position"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sets and Reps Counter:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 sets of 10 reps"
+            android:layout_marginBottom="16dp" />
+
+        <CheckBox
+            android:id="@+id/checkBoxSet1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set 1" />
+
+        <CheckBox
+            android:id="@+id/checkBoxSet2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set 2" />
+
+        <CheckBox
+            android:id="@+id/checkBoxSet3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set 3"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click to Record/Upload Exercise"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/recordedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recorded"
+            app:icon="@drawable/ic_checkmark"
+            app:iconTint="@android:color/white"
+            android:drawablePadding="8dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:layout_gravity="start"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/swipeToCompleteButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Swipe to Complete"
+            android:drawableEnd="@drawable/ic_arrow_right"
+            android:drawablePadding="8dp"
+            android:backgroundTint="#4CAF50"
+            android:textColor="@android:color/white"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp"/>
+
+        <LinearLayout
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="#F8F8F8"
+            android:elevation="8dp">
+
+            <ImageView
+                android:id="@+id/bottomNavHome"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_home_active"
+                android:padding="12dp"
+                android:adjustViewBounds="true"
+                android:maxHeight="48dp"
+                android:maxWidth="48dp" />
+
+            <ImageView
+                android:id="@+id/bottomNavExercises"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/excersise_icon"
+                android:padding="12dp"
+                android:adjustViewBounds="true"
+                android:maxHeight="48dp"
+                android:maxWidth="48dp" />
+
+            <ImageView
+                android:id="@+id/bottomNavProgress"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_progress"
+                android:padding="12dp"
+                android:adjustViewBounds="true"
+                android:maxHeight="48dp"
+                android:maxWidth="48dp" />
+
+            <ImageView
+                android:id="@+id/bottomNavProfile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_profile"
+                android:padding="12dp"
+                android:adjustViewBounds="true"
+                android:maxHeight="48dp"
+                android:maxWidth="48dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

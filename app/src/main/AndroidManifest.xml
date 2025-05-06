@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HandshakePlus"
+        tools:targetApi="31">
+
+        <!--Activity-->
+
+        <activity
+            android:name=".CompanyLogoActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--<activity android:name=".CompanyLogoActivity" />-->
+
+        <activity android:name=".LoginScreenActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".PatientDashboardActivity" />
+        <activity android:name=".PainSurvy" />
+        <activity android:name=".PreExerciseAssessmentActivity" />
+        <activity android:name=".DailyExercisesActivity" />
+        <activity android:name=".ThumbExtensionActivity" />
+        <activity android:name=".PostExerciseSurveyActivity" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".QuizQuestionOneActivity" />
+        <activity android:name=".CorrectAnswerOneActivity" />
+        <activity android:name=".QuizQuestionTwoActivity" />
+        <activity android:name=".CorrectAnswerTwoActivity" />
+        <activity android:name=".QuizQuestionThreeActivity" />
+        <activity android:name=".CorrectAnswerThreeActivity" />
+        <activity android:name=".QuizResultsActivity" />
+        <activity android:name=".TacoTuesdayActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".TitleActivity" />
+
+
+    </application>
+
+</manifest>
